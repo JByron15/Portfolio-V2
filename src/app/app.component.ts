@@ -1,10 +1,17 @@
-import { Component } from '@angular/core';
+import { OnInit, Component } from "@angular/core";
+import { HomeComponent } from "./home/home.component";
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+@Component( {
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'Second-Portfolio';
+  [x: string]: any;
 }
+
+
+
+ 
+    
