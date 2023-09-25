@@ -58,6 +58,10 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--backgroundColor);
+  background-image: url(https://media.giphy.com/media/fS9PCxQYG0ULu/giphy.gif);
+  background-repeat: no-repeat; /* Add semicolon and fix background-repeat */
+  background-size: cover; Optional: Adjust the background size
+  
 }
 
 /* Utility class to stop scrolling */
@@ -87,6 +91,9 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+    background-image: url(https://media.giphy.com/media/fS9PCxQYG0ULu/giphy.gif);
+  background-repeat: no-repeat; /* Add semicolon and fix background-repeat */
+  background-size: cover; Optional: Adjust the background size
 }
 
 /* Container styles */
